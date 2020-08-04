@@ -1,0 +1,74 @@
+body {
+  background-color: #eee;
+  font-family: "Krona One", sans-serif;
+  letter-spacing: 2px;
+  color: #333;
+}
+
+.app {
+  text-align: center;
+}
+
+.weather-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  margin: 0px auto;
+}
+
+.title {
+  margin-bottom: 0;
+}
+
+form {
+  width: 100%;
+}
+
+.input-field {
+  padding: 15px;
+  width: 100%;
+  background: #333;
+  font-size: 16px;
+  color: #fff;
+  border: 0;
+  outline-color: #2a7de7;
+}
+
+.info-card {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.error {
+  color: red;
+  font-family: sans-serif;
+}
+
+.city-name {
+  margin-bottom: 3px;
+  font-size: 25px;
+  margin-top: 0;
+}
+.country {
+  font-size: 11px;
+}
+
+.img-wrapper img {
+  width: 100%;
+}
+
+.icon-wrapper {
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+  background-color: #eee;
+  width: 100px;
+  margin: auto;
+}
